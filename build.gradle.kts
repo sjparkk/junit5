@@ -25,6 +25,8 @@ dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     runtimeOnly("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    implementation("org.mariadb.jdbc:mariadb-java-client:2.1.2")
 }
 
 tasks.withType<KotlinCompile> {
